@@ -1,0 +1,46 @@
+h1 {
+  color: rgb(44, 62, 80);
+}
+
+.icon {
+  position: relative;
+  margin: 20px 0;
+}
+.icon::after {
+  content: "";
+  width: 100px;
+  height: 5px;
+  background-color: rgb(44, 62, 80);
+  position: absolute;
+  top: 50%;
+  right: 41%;
+  margin-bottom: 5px;
+}
+.icon::before {
+  content: "";
+  width: 100px;
+  height: 5px;
+  background-color: rgb(44, 62, 80);
+  position: absolute;
+  top: 50%;
+  left: 41%;
+  margin-bottom: 8px;
+}
+label {
+  color: rgb(107, 202, 175);
+}
+.btn {
+  background-color: rgb(107, 202, 175);
+  border: none;
+}
+input {
+  border-top: none;
+  border-left: black, 1px solid;
+  border-right: none;
+  border-bottom: black, 1px solid;
+
+  margin-bottom: 40px;
+}
+input:focus {
+  box-shadow: none;
+}

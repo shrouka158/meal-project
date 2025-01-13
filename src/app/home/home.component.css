@@ -1,0 +1,27 @@
+header .header-image {
+  width: 20%;
+}
+.icon {
+  position: relative;
+  margin: 20px 0;
+}
+.icon::after {
+  content: "";
+  width: 100px;
+  height: 5px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  right: 41%;
+  margin-bottom: 5px;
+}
+.icon::before {
+  content: "";
+  width: 100px;
+  height: 5px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 41%;
+  margin-bottom: 5px;
+}
